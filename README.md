@@ -7,8 +7,8 @@ How many times you have been writing something like this passing those tedious l
 
     interface IMyService
     {
-        void Method1(…, ILogger logger, CancallationToken token);
-        void Method2(…, ILogger logger, CancallationToken token);
+        void Method1(…, ILogger logger, CancellationToken token);
+        void Method2(…, ILogger logger, CancellationToken token);
         …
     }
 
